@@ -27,6 +27,9 @@
 .align-item-center {
   align-items: center;
 }
+.flex-column{
+  flex-direction: column;
+}
 .justify-content-center {
   justify-content: center;
 }
@@ -46,6 +49,18 @@
 .gap-30 {
   gap: 30px;
 }
+.gap-16{
+  gap: 16px;
+}
+.gap-170{
+  gap: 174px;
+}
+.gap-8{
+  gap: 8px;
+}
+.gap-102{
+  gap: 102px;
+}
 .pt-25 {
   padding-top: 25px;
   padding-bottom: 25px;
@@ -53,28 +68,24 @@
 .menu {
   background: #0000001a;
 }
-.nav-btn {
+.gradient-btn {
   color: #ffffff;
   border: none;
-  width: 181.94px;
-  height: 53.42px;
-  top: 21px;
-  left: 1438px;
   padding: 14px 34px 14px 34px;
   gap: 10px;
   border-radius: 79px;
   opacity: 0px;
-  background: linear-gradient(149.67deg, #815cc8 29.44%, #1babfe 81.54%);
   display: flex;
   transition: all 300ms linear;
 }
-.nav-btn:hover {
+.gradient-btn:hover {
   box-shadow: 0px 8px 30px 0px #1babfe;
 }
 .bg-img {
   background-image: url(/assets/image/png/bg-img.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   min-height: 100vh;
 }
 .nav-links:hover {
@@ -87,6 +98,33 @@
 .mt-50{
     margin-top: 50px;
 }
+.padding-20-17{
+  padding: 20px 17px;
+}
+.padding-24-17{
+  padding: 24px 17px;
+}.padding-10-17{
+  padding: 10px 17px;
+}
+.padding-25{
+  padding: 25px 0;
+}
+
+.box{
+  border: 1px solid;
+border-image-source: linear-gradient(139.17deg, rgba(255, 255, 255, 0.14) 0%, rgba(255, 255, 255, 0.06) 100%);
+
+
+  background: linear-gradient(139.51deg, rgba(255, 255, 255, 0.1) -0.66%, rgba(255, 255, 255, 0.03) 100%);
+}
+.border-bottom{
+  border-bottom:0.4px solid #8C8C8C;
+}
+.border{
+  border: 1px solid ;
+border-image-source: linear-gradient(139.17deg, rgba(221, 213, 213, 0.14) 0%, rgba(255, 255, 255, 0.06) 100%);
+}
+
 /*---------------------------------font-family-------------------------------*/
 .font-family-Poppins{
     font-family: "Poppins", sans-serif;

@@ -1,15 +1,18 @@
 :root{
     /*===========================font=size================*/
-    --fs-2xl:72px;
-    --fs-xl:30px;
-    --fs-lg:24px;
-    --fs-md:22px;
-    --fs-sm:18px;
+    --fs-5xl:72px;
+    --fs-4xl:30px;
+    --fs-3xl:26px;
+    --fs-2xl:24px;
+    --fs-xl:22px;
+    --fs-lg:20px;
+    --fs-md:18px;
+    --fs-sm:16px;
 
     /*===========================font=weight================*/
-    --fw-lg-:700;
-    --fw-lg-:600;
-    --fw-lg-:400;
+    --fw-lg:700;
+    --fw-md:600;
+    --fw-sm:400;
 
     /*===========================color================*/
     --color-white:#FFFFFF;
@@ -28,10 +31,30 @@
     color:var(--color-sky-blue);
 }
 .font-400-72{
+    font-size:var(--fs-5xl);
+    font-weight:var( --fw-sm);
+}
+.font-600-30{
+    font-size:var(--fs-4xl);
+    font-weight:var( --fw-md);
+}
+.font-600-26{
+    font-size:var(--fs-3xl);
+    font-weight:var( --fw-md);
+}
+.font-400-24{
     font-size:var(--fs-2xl);
-    font-weight:var( --fw-lg);
+    font-weight:var( --fw-sm);
 }
 .font-400-22{
-    font-size:var(--fs-md);
-    font-weight:var( --fw-lg);
+    font-size:var(--fs-xl);
+    font-weight:var( --fw-sm);
+}
+.font-600-20{
+    font-size:var(--fs-lg);
+    font-weight:var( --fw-md);
+}
+.font-400-16{
+    font-size:var(--fs-sm);
+    font-weight:var( --fw-sm);
 }
