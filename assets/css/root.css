@@ -18,10 +18,11 @@
     --color-white:#FFFFFF;
     --color-sky-blue:#1BABFE;
     --color-null:#5F9298;
+    --color-grey:#C4C4C4;
     --color-light-grey:#8C8C8C;
     --grey-gradient:linear-gradient( #FFFFFF24 14% , #FFFFFF0F 6%) 1;
     --gradient:linear-gradient(149.67deg, #815CC8 29.44%, #1BABFE 81.54%);
-
+    --sky-blue-gradient:linear-gradient(180deg, #815CC8 0%, #1BABFE 100%);
 }
 /*===============================color================*/
 .gradient{
@@ -36,7 +37,10 @@
 .font-400-72{
     font-size:var(--fs-5xl);
     font-weight:var( --fw-sm);
+    line-height: 127.5%;
 }
+
+/*=============================font-size-weight==============*/
 .font-600-30{
     font-size:var(--fs-4xl);
     font-weight:var( --fw-md);
@@ -56,6 +60,10 @@
 .font-600-20{
     font-size:var(--fs-lg);
     font-weight:var( --fw-md);
+}
+.font-400-18{
+    font-size:var(--fs-md);
+    font-weight:var( --fw-sm);
 }
 .font-400-16{
     font-size:var(--fs-sm);
