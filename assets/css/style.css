@@ -72,6 +72,9 @@
 .gap-48 {
   gap: 48px;
 }
+.gap-10{
+  gap: 10px;
+}
 
 .py-25 {
   padding-top: 17px;
