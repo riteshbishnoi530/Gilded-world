@@ -17,6 +17,9 @@
     /*===========================color================*/
     --color-white:#FFFFFF;
     --color-sky-blue:#1BABFE;
+    --color-null:#5F9298;
+    --color-light-grey:#8C8C8C;
+    --grey-gradient:linear-gradient( #FFFFFF24 14% , #FFFFFF0F 6%) 1;
     --gradient:linear-gradient(149.67deg, #815CC8 29.44%, #1BABFE 81.54%);
 
 }
