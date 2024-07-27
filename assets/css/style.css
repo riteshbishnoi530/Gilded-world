@@ -165,7 +165,7 @@
   content: "";
   width: 0.4px;
   height: 100%;
-  background-color:#8C8C8C;
+  background-color:var(--color-light-grey);
   position: absolute;
   top: 0;
   left: 50%;
@@ -203,11 +203,15 @@
 }
 
 /* -----------------------------------responsive-------------------------------- */
+
+/*=================================max-width-1200===========================*/
 @media (max-width:1200px){
   .logo{
     max-width: 200px;
   }
 }
+
+/*=================================max-width-992===========================*/
 @media (max-width: 992px) {
   label[for="menuIcon"] {
     width: 30px;
@@ -262,6 +266,7 @@
 }
 }
 
+/*=================================max-width-768===========================*/
 @media (max-width: 768px){
   .gap-48{
     gap: 30px;
@@ -281,6 +286,7 @@
 
   }
 
+  /*=================================max-width-512===========================*/
 @media (max-width: 512px){
   .gap-48{
     gap: 15px;

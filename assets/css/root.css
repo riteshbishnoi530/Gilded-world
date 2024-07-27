@@ -69,6 +69,7 @@
     font-size:var(--fs-sm);
     font-weight:var( --fw-sm);
 }
+/*==========================================root-media-screen====================*/
 @media (max-width:1200px) {
     :root{
         --fs-5xl:68px;
