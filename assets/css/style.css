@@ -60,25 +60,10 @@
   width: 100%;
 }
 
-.gap-30 {
-  gap: 30px;
-}
-
-.gap-16 {
-  gap: 16px;
-}
-
-.gap-170 {
-  gap: 174px;
-}
-
 .gap-8 {
   gap: 8px;
 }
 
-.gap-102 {
-  gap: 102px;
-}
 .gap-48{
   gap: 48px;
 }
@@ -117,6 +102,9 @@
 .nav-links:hover {
   -webkit-text-stroke: 0.5px;
 }
+.cursor{
+  cursor: pointer;
+}
 
 .col-lg-6 {
   width: 50%;
@@ -149,6 +137,8 @@
 }
 .max-width-540{
   max-width: 540px;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 .py-section{
   padding-bottom: 156px;
@@ -204,7 +194,6 @@
     align-items: center;
     justify-content: space-between;
     cursor: pointer;
-    position: fixed;
     z-index: 10;
     right: 2%;
     margin-top: 10px;
@@ -216,8 +205,9 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     position: fixed;
+    background: linear-gradient(90deg, #815cc8 0%, #1babfe 100%);
     top: 0%;
     right: -100%;
     transition: all 200ms linear;
@@ -234,8 +224,7 @@
 
   input[type="checkbox"]:checked~.smallscreen {
     right: 0;
-    background: linear-gradient(90deg, #815cc8 0%, #1babfe 100%);
-    width: 50%;
+  position: fixed;
   }
   .col-12{
     width: 100%;
@@ -245,5 +234,44 @@
   }
   .mt-60{
     margin-top: 50px;
+  }
+  .gap-30{
+    gap: 20px;
+}
+}
+
+@media (max-width: 768px){
+  .gap-48{
+    gap: 30px;
+  }
+  .mt-60{
+    margin-top: 20px;
+  }
+  .py-section{
+    padding-bottom: 100px;
+  }
+  }
+
+@media (max-width: 512px){
+  .gap-48{
+    gap: 15px;
+  }
+  .icon{
+    max-width: 12px;
+  }
+  .mt-60{
+    margin-top: 10px;
+  }
+  .py-section{
+    padding-bottom: 60px;
+  }
+  .mt-64{
+    margin-top: 30px;
+  }
+  }
+
+@media (max-width:1200px){
+  .logo{
+    max-width: 200px;
   }
 }
